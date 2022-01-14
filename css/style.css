@@ -2,7 +2,6 @@
     margin: 0;
 }
 
-
 html {
     font-family: 'Roboto', sans-serif;
 }
@@ -18,4 +17,36 @@ header {
     line-height: 50px;
     font-weight: 900;
     font-size: 40px;
+}
+
+.conteiner {
+    width: 60%;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+.conteiner-button {
+    background-color: #ffffff;
+    padding: 10px 40px;
+    margin-bottom: 2px;
+}
+
+button {
+    padding: 5px 10px;
+    margin-right: 20px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.selected {
+    background-color: #47adf1;
+    border: 0;
+    color: #ffffff;
+}
+.unselected {
+    background-color: #ffffff;
+    border: 2px solid #c5cbd0;
+    color: #c5cbd0;
+    box-sizing: border-box;
 }
