@@ -58,13 +58,13 @@ button {
 }
 
 ul {
-    padding-bottom: 50px;
+    padding-bottom: 25px;
     padding-left: 0;
 }
 
 li {    
     list-style-type: none;
-    line-height: 30px;
+    line-height: 35px;
     font-size: 15px;
 }
 
@@ -89,12 +89,27 @@ li {
     border: 1px solid red;
 }
 
-.editorial {
+.bollino {
     color: #ffffff;
     font-size: 11px;
-    background-color: #47adf1;
-    border-radius: 13px;
     display: inline;
+    border-radius: 13px;
     padding: 5px 10px;
     margin-left: 15px;
+}
+
+.editorial {
+    background-color: #47adf1;
+}
+
+.q1 {
+    background-color: #9c72e4;
+}
+
+.recruiting {
+    background-color: #64c0a9;
+}
+
+.mobile {
+    background-color: #f29e33;
 }
