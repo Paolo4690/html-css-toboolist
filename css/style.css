@@ -14,9 +14,10 @@ header {
     background-color: #ffffff;
     padding-top: 15px;
     padding-left: 30px;
-    line-height: 50px;
     font-weight: 900;
-    font-size: 40px;
+}
+header img {
+    vertical-align: middle;
 }
 
 .conteiner {
@@ -34,14 +35,14 @@ header {
 
 button {
     padding: 5px 10px;
-    margin-right: 20px;
+    margin-right: 10px;
     font-size: 12px;
     border-radius: 5px;
 }
 
 .selected {
     background-color: #47adf1;
-    border: 0;
+    border: 2px solid #47adf1;
     color: #ffffff;
 }
 .unselected {
@@ -49,4 +50,51 @@ button {
     border: 2px solid #c5cbd0;
     color: #c5cbd0;
     box-sizing: border-box;
+}
+
+.conteiner-article { 
+    background-color: #ffffff;
+    padding: 40px;
+}
+
+ul {
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+li {    
+    list-style-type: none;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.formattazione-list {   
+    font-size: 14px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 15px;
+    display:inline-block;
+    margin-right: 5px;
+}
+
+.check {
+    color: green;
+    border: 1px solid green;
+}
+
+.cross {
+    color: red;
+    border: 1px solid red;
+}
+
+.editorial {
+    color: #ffffff;
+    font-size: 11px;
+    background-color: #47adf1;
+    border-radius: 13px;
+    display: inline;
+    padding: 5px 10px;
+    margin-left: 15px;
 }
